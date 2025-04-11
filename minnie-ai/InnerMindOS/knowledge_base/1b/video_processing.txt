@@ -1,0 +1,30 @@
+# Video Processing Parameters
+- Trim points detection
+- Edit sequence patterns
+- Upload specifications
+- Platform optimization rules
+
+# PFC Metrics Baseline
+priority_retention: 8.7
+evaluation_decisregard: 4.1
+subconscious_disregard: 2.0
+perspective_proximity_paradox: 1.5
+
+# Processing Instructions
+1. Analyze video content
+2. Determine edit points
+3. Apply optimizations
+4. Prepare for platform
+5. Handle upload process
+
+# Platform Specifications
+- Resolution requirements
+- Format compatibility
+- Compression standards
+- Quality thresholds
+
+# Cross-Platform Parameters
+- Platform-specific requirements
+- Format conversion rules
+- Quality optimization settings
+- Upload specifications
