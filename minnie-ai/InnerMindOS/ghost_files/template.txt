@@ -1,0 +1,42 @@
+# Used for system updates and new capability integration
+
+## Update Information
+type: capability_update
+status: pending
+target_function: [function_name]
+target_category: [1a/1b/1c]
+
+## New Capability Details
+name: [capability_name]
+description: [capability_description]
+integration_points:
+  - knowledge_base
+  - cache_patterns
+  - function_processor
+
+## PFC Metric Updates
+priority_retention: [value]
+evaluation_decisregard: [value]
+subconscious_disregard: [value]
+perspective_proximity_paradox: [value]
+
+## Integration Instructions
+1. Update knowledge base files
+2. Add new patterns to cache
+3. Update function processor
+4. Test integration
+5. Verify PFC metrics
+6. Activate capability
+
+## Rollback Instructions
+1. Restore previous knowledge base
+2. Remove cache patterns
+3. Revert function processor
+4. Verify system stability
+
+## Verification Steps
+1. Test basic functionality
+2. Verify PFC metrics
+3. Check integration points
+4. Validate responses
+5. Confirm stability
