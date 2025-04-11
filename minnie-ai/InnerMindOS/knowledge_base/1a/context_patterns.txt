@@ -1,0 +1,20 @@
+# Context Understanding Patterns
+- Input analysis patterns
+- Context markers
+- Ambiguity resolution rules
+- Voice command structures
+- Error handling patterns
+- Text summarization rules
+
+# PFC Metrics Baseline
+priority_retention: 9.5
+evaluation_decisregard: 3.2
+subconscious_disregard: 1.8
+perspective_proximity_paradox: 1.2
+
+# Processing Instructions
+1. Analyze input context
+2. Resolve ambiguities
+3. Process commands
+4. Handle errors
+5. Generate summaries
