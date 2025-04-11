@@ -1,0 +1,14 @@
+{
+  "name": "innermind-os",
+  "version": "1.0.0",
+  "description": "AI-driven system for Samsung Galaxy Fold 3",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start.js",
+    "test": "node test.js",
+    "init": "node init.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
