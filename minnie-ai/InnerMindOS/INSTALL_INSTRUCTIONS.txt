@@ -1,0 +1,25 @@
+INSTALLATION INSTRUCTIONS FOR YOUR AI SYSTEM
+==========================================
+
+WHAT YOU NEED:
+-------------
+1. The InnerMindOS folder (this has all your AI files)
+2. Termux app from F-Droid store
+
+STEPS:
+------
+1. Install Termux from F-Droid store
+
+2. Open Termux
+
+3. Copy/paste this ONE command:
+   pkg install nodejs
+
+4. Then copy/paste this ONE command:
+   cd storage/downloads/InnerMindOS && node start.js
+
+That's it. Your AI will start running.
+
+If something goes wrong:
+- Make sure Termux has storage permission
+- Make sure the InnerMindOS folder is in your Downloads
