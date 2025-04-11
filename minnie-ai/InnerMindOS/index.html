@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerMind OS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8">
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="p-8">
+                <div class="flex items-center justify-between mb-6">
+                    <h1 class="text-2xl font-semibold text-gray-900">InnerMind OS</h1>
+                    <div id="deviceState" class="text-sm text-gray-500">
+                        <i class="fas fa-mobile-alt"></i> Fold 3
+                    </div>
+                </div>
+
+                <div id="installSection" class="mb-8">
+                    <button id="installBtn" class="w-full bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition-colors flex items-center justify-center">
+                        <i class="fas fa-download mr-2"></i> Install System
+                    </button>
+                    <div id="installProgress" class="hidden mt-4">
+                        <div class="h-2 bg-gray-200 rounded-full">
+                            <div class="h-2 bg-blue-500 rounded-full transition-all duration-500" style="width: 0%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="controlSection" class="space-y-4 hidden">
+                    <button id="startBtn" class="w-full bg-green-500 text-white px-4 py-2 rounded-lg hover:bg-green-600 transition-colors flex items-center justify-center">
+                        <i class="fas fa-play mr-2"></i> Start System
+                    </button>
+                    <button id="stopBtn" class="w-full bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600 transition-colors flex items-center justify-center hidden">
+                        <i class="fas fa-stop mr-2"></i> Stop System
+                    </button>
+                </div>
+
+                <div id="statusSection" class="mt-6">
+                    <h2 class="text-lg font-semibold text-gray-900 mb-2">System Status</h2>
+                    <div class="space-y-2 text-sm text-gray-600">
+                        <div class="flex items-center">
+                            <i class="fas fa-brain mr-2"></i>
+                            <span>AI Core: </span>
+                            <span id="aiStatus" class="ml-2">Not Initialized</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-database mr-2"></i>
+                            <span>Knowledge Base: </span>
+                            <span id="kbStatus" class="ml-2">Not Loaded</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-microchip mr-2"></i>
+                            <span>System State: </span>
+                            <span id="sysStatus" class="ml-2">Offline</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('installBtn').addEventListener('click', async () => {
+            const installBtn = document.getElementById('installBtn');
+            const progress = document.getElementById('installProgress');
+            const progressBar = progress.querySelector('div > div');
+            
+            installBtn.disabled = true;
+            progress.classList.remove('hidden');
+            
+            // Simulate installation
+            for (let i = 0; i <= 100; i += 20) {
+                progressBar.style.width = i + '%';
+                await new Promise(r => setTimeout(r, 500));
+            }
+            
+            document.getElementById('installSection').classList.add('hidden');
+            document.getElementById('controlSection').classList.remove('hidden');
+            document.getElementById('aiStatus').textContent = 'Ready';
+            document.getElementById('kbStatus').textContent = 'Loaded';
+            document.getElementById('sysStatus').textContent = 'Ready';
+        });
+
+        document.getElementById('startBtn').addEventListener('click', () => {
+            document.getElementById('startBtn').classList.add('hidden');
+            document.getElementById('stopBtn').classList.remove('hidden');
+            document.getElementById('sysStatus').textContent = 'Running';
+        });
+
+        document.getElementById('stopBtn').addEventListener('click', () => {
+            document.getElementById('stopBtn').classList.add('hidden');
+            document.getElementById('startBtn').classList.remove('hidden');
+            document.getElementById('sysStatus').textContent = 'Ready';
+        });
+    </script>
+</body>
+</html>
