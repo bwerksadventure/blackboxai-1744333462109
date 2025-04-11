@@ -1,0 +1,27 @@
+INSTALLING THE ANDROID APP VERSION
+================================
+
+This is specifically for the Samsung Galaxy Fold 3 app version.
+
+1. DOWNLOAD:
+   - Get the InnerMindOS.apk file
+   - Save it to your Downloads folder
+
+2. INSTALL:
+   - Open Files app
+   - Go to Downloads
+   - Tap InnerMindOS.apk
+   - If prompted, allow installation from unknown sources
+   - Tap Install
+
+3. LAUNCH:
+   - Find "InnerMind OS" in your apps
+   - Open it
+   - Grant permissions when asked (storage, etc.)
+
+The app will automatically:
+- Detect your Fold 3's screen state (folded/unfolded)
+- Load the AI system
+- Start running
+
+That's it - no terminals, no commands, just a regular Android app install.
