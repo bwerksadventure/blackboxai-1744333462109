@@ -1,0 +1,32 @@
+# Content Generation Parameters
+- Caption patterns
+- Post structure templates
+- Engagement optimization
+- Platform-specific formats
+
+# PFC Metrics Baseline
+priority_retention: 9.2
+evaluation_decisregard: 3.8
+subconscious_disregard: 1.6
+perspective_proximity_paradox: 1.3
+
+# Caption Generation Rules
+1. Analyze content context
+2. Extract key elements
+3. Generate engaging text
+4. Optimize for platform
+5. Add relevant tags
+
+# Post Creation Guidelines
+- Platform-specific formats
+- Engagement optimization
+- Content structure
+- Timing parameters
+- Distribution rules
+
+# Optimization Parameters
+- Character limits
+- Hashtag usage
+- Keyword placement
+- Engagement triggers
+- Time-based factors
