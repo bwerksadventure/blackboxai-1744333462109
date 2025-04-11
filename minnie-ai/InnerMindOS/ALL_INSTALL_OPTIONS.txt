@@ -1,0 +1,54 @@
+ALL WAYS TO INSTALL YOUR AI
+==========================
+
+OPTION 1 - SIMPLEST METHOD (RECOMMENDED)
+--------------------------------------
+1. Download InnerMindOS.zip
+2. Install F-Droid app
+3. Use F-Droid to install Termux
+4. Put InnerMindOS.zip in Downloads folder
+5. Open Termux and type:
+   pkg install nodejs
+   cd storage/downloads/InnerMindOS && node start.js
+
+
+OPTION 2 - DIRECT WEB INTERFACE
+-----------------------------
+1. Download InnerMindOS.zip
+2. Extract it
+3. Open run.html in your browser
+4. Click "Start AI"
+
+
+OPTION 3 - COMMAND LINE (FOR ADVANCED USERS)
+-----------------------------------------
+1. Install Termux from F-Droid
+2. In Termux, run these commands:
+   pkg install nodejs git
+   git clone https://github.com/yourusername/minnie-ai
+   cd minnie-ai/InnerMindOS
+   npm install
+   node start.js
+
+
+OPTION 4 - ANDROID APP VERSION
+---------------------------
+1. Download InnerMindOS.zip
+2. Extract android/app folder
+3. Open in Android Studio
+4. Build and install on your device
+
+
+TROUBLESHOOTING
+--------------
+- If Termux can't access storage:
+  Settings -> Apps -> Termux -> Permissions -> Enable Storage
+
+- If web interface doesn't load:
+  Make sure all files are in the same folder
+
+- If app won't install:
+  Enable "Unknown Sources" in Android settings
+
+Save this file for reference - it has ALL possible ways to install.
+Choose whichever method you're most comfortable with.
