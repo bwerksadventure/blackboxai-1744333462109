@@ -1,0 +1,31 @@
+# Cached Processing Patterns
+
+## Common Input Patterns
+- Question structures
+- Command formats
+- Request types
+- Error patterns
+
+## Response Templates
+- Greeting responses
+- Clarification requests
+- Error messages
+- Status updates
+
+## PFC Metric Patterns
+- High priority patterns
+- Low disregard patterns
+- Balanced perspective patterns
+- Critical evaluation patterns
+
+## Function Triggers
+- Voice command markers
+- Video processing requests
+- Caption generation cues
+- Content creation signals
+
+## Cross-Function Patterns
+- Context switches
+- Function transitions
+- Multi-step processes
+- Error recovery paths
